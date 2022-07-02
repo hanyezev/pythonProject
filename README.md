@@ -30,6 +30,13 @@ git remote add origin [git项目ssh地址]
 git push -u origin master
 ```
 
+2.github在vscode切换分支
+```
+git status
+查看远程: git branch -a
+切换分支master: git checkout master
+```
+
 ## 博客记录
 
 1.超详细Anaconda安装教程 
