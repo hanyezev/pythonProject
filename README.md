@@ -23,7 +23,11 @@
 1.github上传文件
 ```
 git username/password配置成功
-
+git init
+git add .
+git commit -am "[提交信息备注]]."
+git remote add origin [git项目ssh地址]
+git push -u origin master
 ```
 
 ## 博客记录
