@@ -32,7 +32,7 @@ git push -u origin master
 
 ## 博客记录
 
-1.超详细Anaconda安装教程
+1.超详细Anaconda安装教程 
 https://blog.csdn.net/qq_45344586/article/details/124028689
 
 
