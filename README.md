@@ -46,6 +46,26 @@ if not os.path.exists(Model_dir):
     os.makedirs(Model_dir)
 ```
 
+## 文件读取与写入
+r:读取, w:写入, a:追加, b:二进制, +:不存在创建.
+```
+# 加载数据为字符串
+def load_data(path) -> str:
+    s = ""
+    with open(path,'r') as f:
+        for line in f:
+            s += line
+    f.close
+    return s
+
+# 写入数据
+def write_data(path, key):
+    s = ""
+    with open(path,'a') as f:
+        f.write(str(key) + "\n")
+    f.close
+```
+
 ## Time
 
 1.当前时间戳
