@@ -1,5 +1,6 @@
 import datetime
 
+# 16位时间戳转时间字符串
 def fromTimestamp(timestamp, returnType="str"):
     firstTimestamp  = timestamp / 1000000
     secondTimestamp  = timestamp % 1000000
